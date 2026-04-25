@@ -36,4 +36,5 @@ soroban contract deploy
 soroban contract invoke --id <id> --fn pay_fare --arg <passenger> --arg <driver> --arg 13
 
 ## License
-MIT
+MIT 
+https://stellar.expert/explorer/testnet/tx/da08f2b0777c52e0ab6b29c3f91b43ceb2d5b698517521fa6b66daf269150bc1
