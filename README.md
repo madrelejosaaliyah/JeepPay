@@ -1,20 +1,39 @@
-Project## Project Structure
+# JeepPay
+Digital jeepney fare payment using Stellar.
 
-This repository uses the recommended structure for a Soroban project:
+## Problem
+Commuters struggle with exact fare and delays due to cash handling.
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Solution
+QR-based payment using Stellar for instant fare transfers.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## Timeline
+Week 1: Contract  
+Week 2: Mobile UI  
+Week 3: Integration  
+
+## Stellar Features
+- USDC transfers
+- Soroban contracts
+
+## Vision
+Cashless public transport in the Philippines.
+
+## Prerequisites
+- Rust
+- Soroban CLI
+
+## Build
+soroban contract build
+
+## Test
+cargo test
+
+## Deploy
+soroban contract deploy
+
+## Example
+soroban contract invoke --id <id> --fn pay_fare --arg <passenger> --arg <driver> --arg 13
+
+## License
+MIT
